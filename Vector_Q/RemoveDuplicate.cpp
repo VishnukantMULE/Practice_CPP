@@ -1,7 +1,7 @@
 //Remove Duplicated from vector
 #include<bits/stdc++.h>
 using namespace std;
-void fund(vector<int> &vec)
+void RemoveDuplicate(vector<int> &vec)
 {
   set<int> s;
   for(auto it:vec)
@@ -24,6 +24,6 @@ int main()
     cin>>k;
     vec.push_back(k);
   }
-  fund(vec);
+  RemoveDuplicate(vec);
   return 0;
 }
