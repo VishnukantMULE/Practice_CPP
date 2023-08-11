@@ -1,4 +1,4 @@
-//find the vector is sorted or not
+//Remove Duplicated from vector
 #include<bits/stdc++.h>
 using namespace std;
 void fund(vector<int> &vec)
